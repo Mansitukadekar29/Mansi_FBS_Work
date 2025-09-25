@@ -1,7 +1,8 @@
+package p1;
 
 public class Product {
-	int id;
-	String name;
+	public int id;
+	public String name;
 	
 	
 
@@ -9,13 +10,9 @@ public class Product {
 		return id;
 	}
 
-
-
 	void setId(int id) {
 		this.id = id;
 	}
-
-
 
 	String getName() {
 		return name;
@@ -27,9 +24,9 @@ public class Product {
 	}
 
 
- Product() {
-	this.id=0;
-	this.name="not given";
+public Product() {
+	this.id=101;
+	this.name="Goodday";
 }
  
 
@@ -48,10 +45,3 @@ public class Product {
 
 }
 
-class Test{
-
-	public static void main(String[] args) {
-		
-	}
-
-}
